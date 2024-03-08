@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+
+    <div class="container">
+     <div class="todo-app">
+        <div class="header">
+            <h1>To-Do List</h1>
+        </div>
+
+        <div class="section">
+            <h2>To-Do<img src="icon.png"></h2>
+            <ul id="todoList" class="task-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </ul>
+
+            <ul id="list-container">
+                <li class="checked">Task 1</li>
+                   <li>Task 2</li>
+                   <li>Task 3</li> 
+               </ul>
+        </div>
+
+        
+
+        <div class="section">
+            <h2>Add Task</h2>
+            <input type="text" id="taskInput" placeholder="Enter task..." />
+            <button onclick="addTask()">Add</button>
+     </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
