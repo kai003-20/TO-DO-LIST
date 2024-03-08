@@ -17,7 +17,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone [repository_url]
+git clone [https://github.com/kai003-20/TO-DO-LIST]
 Open the index.html file in a web browser.
 
 Usage
